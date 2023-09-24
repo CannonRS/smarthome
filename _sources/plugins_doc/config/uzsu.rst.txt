@@ -43,7 +43,7 @@ Das Plugin benötigt die folgende Software:
  - Python Modul scipy: ``pip3 install scipy``. Es wird empfohlen, zuerst die Pythonmodule zu aktualisieren, aber unbedingt darauf zu achten, dass die Requirements von SmarthomeNG erfüllt bleiben! Sollte die Installation via pip nicht funktionieren: ``sudo apt update && sudo apt install -y python3-scipy``
 
 
- - Minimum SmartHomeNG Version: **1.5**
+ - Minimum SmartHomeNG Version: **1.6**
 
 Konfiguration
 =============
@@ -128,26 +128,6 @@ Cron-Angabe, wann für die UZSU Einträge mit Sonnenstandbezug die errechnete Uh
 
  - Datentyp: **str**
  - Standardwert: **0 0 * ***
-
-
-webif_pagelength
-================
-
-
-Anzahl an Items, die standardmäßig in einer Web Interface Tabelle pro Seite angezeigt werden.
-Bei 0 wird die Tabelle automatisch an die Höhe des Browserfensters angepasst.
-Bei -1 werden alle Tabelleneinträge auf einer Seite angezeigt.
-
- - Datentyp: **int**
- - Standardwert: **100**
-
- - Mögliche Werte:
-
-   - **-1**
-   - **0**
-   - **25**
-   - **50**
-   - **100**
 
 
 ==============
@@ -286,4 +266,4 @@ Fortsetzen der UZSU Evaluierung: Aktivieren des Items und Setzen des zuletzt fes
  - Ergebnistyp der Funktion: **foo**
 
 
-.. [#f1] Diese Seite wurde aus den Metadaten des Plugins erzeugt. Für den Fall, dass diese Seite nicht alle benötigten Informationen enthält, bitte auf die englischsprachige :doc:`README Datei <../../plugins/uzsu/README>` des Plugins zugreifen.
+.. [#f1] Diese Seite wurde aus den Metadaten des Plugins erzeugt.
